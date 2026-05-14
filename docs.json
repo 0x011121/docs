@@ -1,12 +1,12 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "almond",
+  "theme": "willow",
   "name": "Product Guide",
   "description": "Step-by-step guides for every product—platform setup, analytics, and integrations in one place.",
   "colors": {
-    "primary": "#166E3F",
-    "light": "#26BD6C",
-    "dark": "#166E3F"
+    "primary": "#ffbf00",
+    "light": "#c9aa4c",
+    "dark": "#161717"
   },
   "favicon": "/favicon.ico",
   "icons": {
@@ -93,8 +93,17 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/yourcompany",
-      "linkedin": "https://linkedin.com/company/yourcompany"
+      "x": "https://x.com/yourcompany"
     }
+  },
+  "background": {
+    "decoration": "gradient",
+    "color": {
+      "light": "#c49c39",
+      "dark": "#100f0f"
+    }
+  },
+  "appearance": {
+    "strict": false
   }
 }
