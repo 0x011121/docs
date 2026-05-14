@@ -19,39 +19,38 @@
     "options": ["copy", "view", "assistant", "mcp", "add-mcp"]
   },
   "navigation": {
-    "directory": "card",
-    "groups": [
-      {
-        "group": "Get Started",
-        "pages": [
-          "introduction",
-          "getting-started/compatibility",
-          "getting-started/preparation",
-          "getting-started/windows-reinstall"
-        ]
-      },
-      {
-        "group": "How to Inject",
-        "pages": [
+  "directory": "card",
+  "groups": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "introduction",
+        "getting-started/compatibility",
+        "getting-started/preparation",
+        "getting-started/windows-reinstall"
+      ]
+    },
+    {
+      "group": "How to Inject",
+      "pages": [
+        "how-to-inject/owo",
+        "how-to-inject/Incognito",
+        "how-to-inject/Dodo"
+      ]
+    },
+    {
+      "group": "Loader Issues",
+      "pages": ["loader-errors/hwid-reset"]
+    },
+    {
+      "group": "Guides",
+      "pages": [
         "guides/fps-improvement",
         "guides/magic-bullet"
       ]
-      },
-      {
-        "group": "Loader Issues",
-        "pages": ["loader-errors/hwid-reset"]
-        ]
-      },
-      {
-        "group": "Guides",
-        "pages": [
-          "",
-          "guides/fps-improvement",
-          "guides/magic-bullet"
-        ]
-      }
-    ]
-  },
+    }
+  ]
+},
   "logo": "/logo/light.svg",
   "navbar": {
     "links": [],
