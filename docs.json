@@ -20,11 +20,11 @@
   },
   "navigation": {
     "directory": "card",
-    "pages": [
-      "introduction",
+    "groups": [
       {
         "group": "Get Started",
         "pages": [
+          "introduction",
           "getting-started/compatibility",
           "getting-started/preparation",
           "getting-started/windows-reinstall"
