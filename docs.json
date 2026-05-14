@@ -26,7 +26,6 @@
         "group": "Get Started",
         "pages": [
           "getting-started/compatibility",
-          "getting-started/loader-status",
           "getting-started/preparation",
           "getting-started/windows-reinstall"
         ]
