@@ -1,0 +1,108 @@
+---
+title: "Advanced Aimbot (PID)"
+---
+
+# Advanced Aimbot (PID)
+
+The advanced aimbot may look complex at first glance, but it is designed to be highly customizable. With the right knowledge, you can tune it to be indistinguishable from human input.
+
+## How it Works
+
+The aimbot uses a **P.I.D. Controller** system to calculate how the mouse moves when you hold the aim key.
+
+<Note>
+  **What is a PID Controller?**
+
+  **P**roportional, **I**ntegral, **D**erivative (PID) controllers are used in real-world scenarios—like quadcopters, heating systems, and cruise control—to stabilize a target with minimal error.
+
+  In this context, this allows you to configure the **path** to the target. You can add curves, smoothing, and micro-adjustments to make the aim look "human" rather than robotic.
+</Note>
+
+### ⚠️ Important Requirement
+
+<Warning>
+  **Enable Hardlock**
+
+  For the Advanced Aimbot (PID system) to function, you **must** have the **Hardlock** option enabled in the menu. Without this, the settings below will do nothing.
+</Warning>
+
+---
+
+## The Three Components
+
+### 1. Proportional Gain (P)
+
+_Controls the Speed and Aggression._
+
+This is the main setting that affects the movement speed of the crosshair.
+
+- **High P:** The aimbot reaches the target very quickly, but may "overshoot" (go past the target) slightly before correcting.
+- **Low P:** The aimbot may feel unresponsive or take a long time to reach the target.
+
+![Proportional Gain Graph](https://i.ibb.co/tbMBg13/PROPGAIN.png)
+
+### 2. Integral Gain (I)
+
+_Controls the Smoothing and Oscillations._
+
+This value handles small micro-corrections within the movement path.
+
+- **High I:** Creates more oscillations (mini curves/shaking) while aiming.
+- **Low I:** Creates a straighter, more direct line to the target.
+
+![Integral Gain Graph](https://i.ibb.co/Bf9wk1K/Untitled-2.png)
+
+### 3. Deteriorate (D)
+
+_Controls the "Stickiness" over time._
+
+Deteriorate makes corrections to the aimbot the longer you hold the key.
+
+- **Low D:** The aimbot reaches the target with minimal errors.
+- **High D:** The aimbot may feel like it never quite "sticks" to the target and is constantly micro-adjusting or shaking.
+
+![Deteriorate Graph](https://i.ibb.co/58MdTFY/Untitled-3.png)
+
+---
+
+## Configuration Guide
+
+There is no single "correct" way to configure the PID controller; it depends on your playstyle. However, here are some standard formulas to help you get started.
+
+### Recommended Presets
+
+<CardGroup cols={1}>
+  <Card title="Rage / Strong Aim" icon="crosshairs">
+    **Fast and Linear**
+
+    - **Proportional (P):** HIGH
+    - **Integral (I):** LOW
+    - **Deteriorate (D):** LOW
+  </Card>
+
+  <Card title="Semi-Legit" icon="user-secret">
+    **Balanced Speed and Smoothness**
+
+    - **Proportional (P):** MID
+    - **Integral (I):** LOW
+    - **Deteriorate (D):** MID/LOW
+  </Card>
+
+  <Card title="Full Legit" icon="mask">
+    **Slow, curvy, and very human-like**
+
+    - **Proportional (P):** MID
+    - **Integral (I):** LOW
+    - **Deteriorate (D):** MID/HIGH
+  </Card>
+</CardGroup>
+
+### Troubleshooting Sensitivity
+
+<Tip>
+  **Is the aimbot speed still wrong?**
+
+  If you have maxed out the settings but the aimbot is still **too sluggish**, try **increasing** your In-Game Sensitivity.
+
+  Conversely, if the aimbot is **too fast** even on the lowest settings, try **lowering** your In-Game Sensitivity.
+</Tip>

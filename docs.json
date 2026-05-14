@@ -49,7 +49,33 @@
           "loader-errors/not-authorized",
           "loader-errors/common-errors",
           "loader-errors/error-1064",
-          "loader-errors/error-549"
+          "loader-errors/error-549",
+          "loader-errors/loader-issues",
+          "loader-errors/no-active-product"
+        ]
+      },
+      {
+        "group": "Bluescreens",
+        "pages": [
+          "bluescreens/attempted-execute-of-nonexecute-memory",
+          "bluescreens/data-coherency-exception",
+          "bluescreens/dpc-watchdog-violation",
+          "bluescreens/kernel-security-check-failure",
+          "bluescreens/unsupported-processor"
+        ]
+      },
+      {
+        "group": "Cheat Issues",
+        "pages": [
+          "cheat-issues/overlay-flickering",
+          "cheat-issues/unable-to-interact"
+        ]
+      },
+      {
+        "group": "Guides",
+        "pages": [
+          "guides/advanced-aimbot",
+          "guides/fps-improvement"
         ]
       }
     ]
