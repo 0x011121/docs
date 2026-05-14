@@ -41,19 +41,13 @@
       {
         "group": "Loader Issues",
         "pages": [
-          "loader-errors/not-authorized"
-        ]
-      },
-      {
-        "group": "Cheat Issues",
-        "pages": [
-          "cheat-issues/overlay-flickering"
+          ""
         ]
       },
       {
         "group": "Guides",
         "pages": [
-          "guides/advanced-aimbot",
+          "",
           "guides/fps-improvement"
         ]
       }
