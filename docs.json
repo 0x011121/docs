@@ -33,14 +33,12 @@
       {
         "group": "How to Inject",
         "pages": [
-          "how-to-inject/pubg",
-          "how-to-inject/cod",
-          "how-to-inject/overwatch-2"
-        ]
+        "guides/fps-improvement",
+        "guides/magic-bullet"
+      ]
       },
       {
         "group": "Loader Issues",
-        "pages": [
         "pages": ["loader-errors/hwid-reset"]
         ]
       },
