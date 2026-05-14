@@ -35,39 +35,19 @@
         "pages": [
           "how-to-inject/pubg",
           "how-to-inject/cod",
-          "how-to-inject/overwatch-2",
-          "how-to-inject/apex-legends",
-          "how-to-inject/arma-3",
-          "how-to-inject/fortnite",
-          "how-to-inject/dayz"
+          "how-to-inject/overwatch-2"
         ]
       },
       {
         "group": "Loader Issues",
         "pages": [
-          "loader-errors/not-authorized",
-          "loader-errors/common-errors",
-          "loader-errors/error-1064",
-          "loader-errors/error-549",
-          "loader-errors/loader-issues",
-          "loader-errors/no-active-product"
-        ]
-      },
-      {
-        "group": "Bluescreens",
-        "pages": [
-          "bluescreens/attempted-execute-of-nonexecute-memory",
-          "bluescreens/data-coherency-exception",
-          "bluescreens/dpc-watchdog-violation",
-          "bluescreens/kernel-security-check-failure",
-          "bluescreens/unsupported-processor"
+          "loader-errors/not-authorized"
         ]
       },
       {
         "group": "Cheat Issues",
         "pages": [
-          "cheat-issues/overlay-flickering",
-          "cheat-issues/unable-to-interact"
+          "cheat-issues/overlay-flickering"
         ]
       },
       {
