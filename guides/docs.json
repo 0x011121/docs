@@ -20,31 +20,34 @@
   },
   "navigation": {
   "directory": "card",
-  "anchors": [
+  "groups": [
     {
-      "anchor": "Forums",
-      "icon": {
-        "name": "messages-square",
-        "library": "lucide"
-      },
-      "href": "https://axionzero.io/forums"
+      "group": "Get Started",
+      "pages": [
+        "introduction",
+        "getting-started/compatibility",
+        "getting-started/preparation",
+        "getting-started/windows-reinstall"
+      ]
     },
     {
-      "anchor": "Discord",
-      "icon": {
-        "style": "brands",
-        "name": "discord",
-        "library": "fontawesome"
-      },
-      "href": "https://axionzero.io/discord"
+      "group": "How to Inject",
+      "pages": [
+        "how-to-inject/owo",
+        "how-to-inject/Incognito",
+        "how-to-inject/Dodo"
+      ]
     },
     {
-      "anchor": "Support",
-      "icon": {
-        "name": "life-buoy",
-        "library": "lucide"
-      },
-      "href": "https://axionzero.io/forums/support"
+      "group": "Loader Issues",
+      "pages": ["loader-errors/hwid-reset"]
+    },
+    {
+      "group": "Guides",
+      "pages": [
+        "guides/fps-improvement",
+        "guides/magic-bullet"
+      ]
     }
   ]
 },
