@@ -41,14 +41,15 @@
       {
         "group": "Loader Issues",
         "pages": [
-          ""
+        "pages": ["loader-errors/hwid-reset"]
         ]
       },
       {
         "group": "Guides",
         "pages": [
           "",
-          "guides/fps-improvement"
+          "guides/fps-improvement",
+          "guides/magic-bullet"
         ]
       }
     ]
