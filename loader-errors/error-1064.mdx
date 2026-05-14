@@ -1,0 +1,30 @@
+---
+title: "Code 1064"
+---
+
+# Code 1064
+
+If you receive the error **Operation Failed With Code: 1064**, it indicates that **Secure Boot** is currently enabled on your system. This feature blocks the loader from injecting.
+
+## Solution
+
+To resolve this, you must strictly disable **Secure Boot** in your BIOS settings.
+
+<Steps>
+  <Step title="Enter BIOS">
+    Restart your computer. As it powers on, repeatedly press your BIOS key (commonly `DEL`, `F2`, `F10`, or `ESC`) until the BIOS menu appears.
+  </Step>
+  <Step title="Locate Secure Boot">
+    Navigate to the **Boot**, **Security**, or **Authentication** tab. _(The location varies depending on your motherboard manufacturer: ASUS, MSI, Gigabyte, etc.)_
+  </Step>
+  <Step title="Disable the Setting">
+    Find the option labeled **Secure Boot** and set it to **Disabled**.
+
+    <Note>
+      **Tip:** If the option is greyed out, you may need to set a "Supervisor Password" temporarily or change "OS Type" from _Windows UEFI_ to _Other OS_.
+    </Note>
+  </Step>
+  <Step title="Save and Exit">
+    Press `F10` to save your changes and exit. Your PC will restart into Windows.
+  </Step>
+</Steps>
